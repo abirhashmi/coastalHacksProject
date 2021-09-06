@@ -16,10 +16,6 @@ def next():
 def BMI():
   return render_template('bmi.html')
 
-@app.route('/percentilepage/')
-def my_link():
-  return 'hi.'
-
 
 @app.route('/', methods=['POST'])
 def getvalue():
